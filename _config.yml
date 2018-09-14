@@ -1,11 +1,11 @@
 # Site settings
 author: Paul A. Fell
-title: Paul (Fell) Cinoman's Tech Blog
+title: Paul Fell's Web Development Blog
 header-img: img/home-bg.png
 email: swellpf@gmail.com
 copyright_name: Paul A. Fell
 description: > # this means to ignore newlines until "baseurl:"
-  Introspections on Technology and Its Impact on Society
+  Thoughts and Insights On My Tech Journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  SwellPF
