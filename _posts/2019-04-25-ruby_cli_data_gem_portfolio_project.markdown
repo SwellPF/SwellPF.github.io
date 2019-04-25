@@ -5,7 +5,7 @@ date:       2019-04-25 14:32:48 -0400
 permalink:  ruby_cli_data_gem_portfolio_project
 ---
 
-*(and the “Return Value” of revisiting your code)*
+# *(and the “Return Value” of revisiting your code)*
 
 
 I started working on my Ruby CLI Data Gem project just before the Christmas holiday.  My project is an app that scrapes team roster information for the Tampa Bay Buccaneers NFL football team website and presents that information to the user.  
@@ -16,5 +16,7 @@ Re-reading the material again reinforced some of the concepts that I felt a litt
 
 As I was putting the finishing touches on my app I discovered that there had been some minor changes to the website I was scraping requiring modification to my code in order to scrape the data properly.  (Just the kind of thing that happens in the real world!)  While scraping can be tricky and a bit frustrating it gave me a real boost of confidence when I was able to get my app working again within a few minutes. 
 
-Feeling inspired, I even took the time to make some additional improvements to my app during my final review before submission.  What initially felt like a frustrating delay turned out to be an opportunity to gain a more solid understanding of Ruby and a chance to put my nascent programming skills to the test.  The takeaway is to be persistent, keep working at it and don’t be afraid to look back.  And always take a moment to appreciate how far you’ve come.
+Feeling inspired, I even took the time to make some additional improvements to my app during my final review before submission.  For example, displaying all of the players on the roster spanned several screens so I used an index pointer variable (employing the ||= operator to initialize the variable within my method) along with "each.with_index" using the pointer variable and a fixed range to provide pagination of the list.
+
+What initially felt like a frustrating delay turned out to be an opportunity to gain a more solid understanding of Ruby and a chance to put my nascent programming skills to the test.  The takeaway is to be persistent, keep working at it and don’t be afraid to look back.  And always take a moment to appreciate how far you’ve come.
 
